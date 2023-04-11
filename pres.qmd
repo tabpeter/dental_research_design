@@ -1,0 +1,101 @@
+---
+title: "A dentist's menu for conducting a research study"
+author: "Tabitha K. Peter"
+format: 
+  revealjs:
+    theme: simple
+    logo: iowa.png
+    slide-number: true
+    show-slide-number: print
+    incremental: true
+editor: visual
+---
+
+## Collaborative health science research begins with a research question
+
+::: notes
+The goal of this mini-lecture is to equip you all with the language you need to articulate a dental research question to collaborators. By the end of this lesson, you will know how to determine the type of study you want to conduct and the type of data you want to collect.
+:::
+
+## Menu overview: what are the steps in conducting dental research?
+
+1.  Write down a research question that articulates what you want to learn
+2.  Identify what type of study you need to answer your question
+3.  Determine the type(s) of data you need to collect
+4.  Consult a biostatistican to write a statistical analysis plan
+5.  Collect the data
+6.  Analyze the data according to your statistical analysis plan
+7.  Draw an inference based on the evidence in the data
+
+::: {.fragment .highlight-blue}
+2.  Identify what type of study you need to answer your question
+3.  Determine the type(s) of data you need to collect
+:::
+
+::: notes
+-   Connect back to Chandler's presentation
+
+-   Emphasize the second and third points (give Chipotle example)
+:::
+
+# Identifying a study type
+
+## Observational v. experimental
+
+-   **Observational** studies collect data from an existing system without intentionally interfering with that system
+
+-   **Experimental** studies involve the investigator(s) deliberately setting one or more factors in a system to a specific level
+
+## Example time: observational or experimental?
+
+::: {.fragment .fade-out}
+Example 1: I am an endodontist who wants to compare different kinds of treatments for SIP first and second molars. Treatment A is the standard of care, but I think the new Treatment B might be just as good, if not better. Do I need an observational study or an experimental study to answer my question?
+:::
+
+::: {.fragment .fade-in-then-out}
+I need an experimental study -- the factor I want to set to a specific level is the treatment each SIP molar receives.
+:::
+
+::: {.fragment .fade-in-then-out}
+Example 2: I am a pediatric dentist who wants to see if children who come to the clinic from farther away are less likely to complete their follow-up appointment compared to children who live closer to CoD. Do I need an observational study or an experimental study to answer my question?
+:::
+
+::: {.fragment .fade-in-then-out}
+I need an observational study. I will not change the patients' distance traveled to CoD, and I do not want to deliberately change treatment completion. I want to look back at dental records and see if there is a pattern.
+:::
+
+# Surveying common types of data in dental research
+
+## How long until (some event of interest) happens?
+
+Addressing this kind of question requires time-to-event (survival) data
+
+::: fragment
+Example: How long do crown margin repairs usually last for patients treated at CoD?
+:::
+
+## What happens to (some unit of study) over time?
+
+Addressing this kind of question requires longitudinal data. This kind of data involves repeatedly measuring the study units at several points in time.
+
+::: fragment
+Example: How long do crown margin repairs usually last for patients treated at CoD?
+:::
+
+## Are the (units of study) in group A different than those in group B? Watch and see...
+
+-   This kind of study is typically a case-control study, where the two groups you want to compare are the "case" group and the "control" group.
+
+## What do people in this specific group think/experience/learn/have access to?
+
+-   Addressing this type of question often calls for a survey. Survey studies are most commonly **observational**
+
+## What generalization can we make about the literature in this specific area?
+
+-   A study that studies other studies is a meta-analysis. Specifically, the aim of a meta-analysis is to aggregate results from the literature in a particular field and make a generalization.
+
+-   As more journals are requiring investigators to publish their data along with their results, aggregating data sets across multiple studies and analyzing this mega data is becoming a more popular approach. This is called **mega-analysis**.
+
+# References
+
+-   Fisher, L. D. and van Belle, G. *Biostatistics: a methodology for the health sciences*. Wiley, 1993.
