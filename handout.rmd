@@ -1,9 +1,13 @@
 ---
 title: "Handout"
-subtitle: "Companion to 'A dentist's menu for conducting a research study'"
 author: "Tabitha K. Peter"
-format: html
+date: "`r Sys.Date()`"
+output: pdf_document
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 # Collaborative health science research begins with a research question
 
@@ -27,29 +31,40 @@ format: html
 
 # Surveying common types of data in dental research
 
+## Data type is usually determined by the outcome 
+
+Consider your research question: 
+
+  - which element is the outcome (dependent variable)? 
+  - which element is the explanatory (independent) variable of greatest interest? 
+  - are there any factor(s) for which you want to control? 
+
 ## How long until (some event of interest) happens?
 
 -   Addressing this kind of question requires **time-to-event (survival)** data
+-   Outcome: time until the event happens
+-   Dates are the key data to collect for this outcome
 
-## Examples of time-to-event research questions
+### Examples of time-to-event research questions
 
 -   How long do crown margin repairs usually last for patients treated at CoD?
 -   How long until dentures need to be refitted?
 
 ## What happens to (some unit of study) over time?
 
-Addressing this kind of question requires **longitudinal** data. This kind of data involves repeatedly measuring the study units at several points in time.
+-  Addressing this kind of question requires **longitudinal** data. 
+-  This kind of data involves repeatedly measuring the study units at several points in time.
 
-## Examples of longitudinal research questions
+### Examples of longitudinal research questions
 
 -   How does fluoride exposure impact dental caries over the course of childhood?
 -   Is nonsurgical periodontal treatment associated with improved kidney function over time?
 
 ## Are the (units of study) in group A different than those in group B?
 
--   This kind of study is typically a **case-control** study, where the two groups you want to compare are the "case" group and the "control" group.
+-   This kind of study is typically a **case-control** study, where the two groups you want to compare are the "case" group and the "control" group. 
 
-## Examples of case-control research questions
+### Examples of case-control research questions
 
 -   Do mice born with nonsyndromic orofacial clefts have more (or fewer) dental anomalies compared to mice with no orofacial birth defects?
 
@@ -57,9 +72,10 @@ Addressing this kind of question requires **longitudinal** data. This kind of da
 
 ## What do people in this specific group think/experience/learn/have access to?
 
--   Addressing this type of question often calls for a **survey.** Survey studies are most commonly **observational**
+-   Addressing this type of question often calls for a **survey.** 
+-   Survey studies are most commonly **observational**
 
-## Examples of survey research questions
+### Examples of survey research questions
 
 -   Do patients living in skilled nursing facilities who demonstrate evidence of a cognitive impairment face increased challenges in maintaining oral hygiene practices?
 
@@ -71,8 +87,8 @@ Addressing this kind of question requires **longitudinal** data. This kind of da
 
 -   As more journals are requiring investigators to publish their data along with their results, aggregating data sets across multiple studies and analyzing this mega data is becoming a more popular approach. This is called **mega-analysis**.
 
-## Examples of meta-analysis research questions
+### Examples of meta-analysis research questions
 
 -   Surveying the literature on the oral microbiome in patients diagnosed with COVID-19, what generalization can we make about the patterns of dysbiosis observed in such patients?
 
--   Does the literature on
+-   Does the dental materials literature demonstrate a consensus regarding the impact of resin-modified glass ionomer (GI), instead of regular GI? 
