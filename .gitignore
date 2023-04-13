@@ -5,4 +5,5 @@
 *.log
 *_files/
 *.docx
-
+img/
+*.Rproj.user
